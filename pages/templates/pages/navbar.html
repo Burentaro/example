@@ -1,0 +1,12 @@
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+
+<nav>
+	<ul>
+	  <li><a href="{% url 'home' %}">Home</a></li>
+	  <li><a href="{% url 'menu' %}">Menu</a></li>
+	  <li><a href="{% url 'courses' %}">Courses</a></li>
+	  <li><a href="{% url 'contact' %}">Contact</a></li>
+	</ul>
+</nav>
